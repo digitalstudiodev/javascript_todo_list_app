@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo List App - JavaScript</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family+Titillium+Web">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <!--Header-->
+            <div class="header">
+                <!--Refresh Button-->
+                <div class="clear">
+                    <i class="fa fa-sync-alt"></i>
+                </div>
+                <!--Date-->
+                <div id="date"></div>
+            </div>
+
+            <!--Main Section-->
+            <div class="content">
+                <ul id="list">
+                </ul>
+            </div>
+
+            <!--Add Items Section-->
+            <div class="add-to-do">
+                <!--Add Item Button-->
+                <i class="fas fa-chevron-circle-up"></i>
+
+                <!--User Input Todo Item-->
+                <input type="text" id="input" placeholder="Add Item">
+            </div>
+        </div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
